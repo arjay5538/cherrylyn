@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cherry Lyn Segovia Felarca • Payroll & Administrative Professional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-[#f9f7f4] text-[#1a1a1a] overflow-x-hidden">
+
+  <!-- Navbar -->
+  <nav id="nav" class="nav fixed top-0 left-0 right-0 z-[999] border-b border-[#e8e4df]">
+    <div class="max-w-screen-2xl mx-auto px-6 md:px-8 flex items-center justify-between h-20">
+      <div>
+        <div class="font-semibold tracking-tighter text-2xl">Cherry Lyn Felarca</div>
+        <div class="text-xs text-[#5c5c5c] -mt-1">Payroll & Administrative Professional</div>
+      </div>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center gap-x-9 text-sm font-medium">
+        <a href="#about" class="hover:text-[#0f766e] transition-colors">About</a>
+        <a href="#services" class="hover:text-[#0f766e] transition-colors">Services</a>
+        <a href="#tools" class="hover:text-[#0f766e] transition-colors">Tools</a>
+        <a href="#experience" class="hover:text-[#0f766e] transition-colors">Experience</a>
+      </div>
+
+      <a href="#contact" class="hidden md:block btn btn-primary text-sm px-6 py-2">Get in Touch</a>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-btn" class="md:hidden p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-6 py-8 border-t bg-[#f9f7f4] z-[999]">
+      <div class="flex flex-col gap-y-5 text-lg">
+        <a href="#about" class="py-1">About</a>
+        <a href="#services" class="py-1">Services</a>
+        <a href="#tools" class="py-1">Tools</a>
+        <a href="#experience" class="py-1">Experience</a>
+        <a href="#contact" class="btn btn-primary mt-4 w-full justify-center">Get in Touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero pt-20 min-h-[100dvh] flex items-center">
+    <div class="max-w-screen-2xl mx-auto px-6 md:px-8 w-full">
+      <div class="flex flex-col md:flex-row md:items-center gap-y-10 md:gap-x-12">
+        
+       <!-- Text Content -->
+<div class="md:w-7/12">
+  <div class="max-w-3xl">
+    
+    <!-- Badge - Properly centered on mobile -->
+    <div class="flex justify-center md:justify-start mb-8">
+      <div class="inline-block px-5 py-2 rounded-full bg-white border border-[#e8e4df] text-sm tracking-wider mt-10 text-[#5c5c5c] font-medium">
+        15+ YEARS • REMOTE EXPERTISE
+      </div>
+    </div>
+    
+    <h1 id="hero-headline" class="text-6xl md:text-8xl text-center lg:text-left tracking-tighter font-semibold leading-none mb-8"></h1>
+    <p id="hero-subheadline" class="max-w-lg text-xl md:text-2xl text-[#5c5c5c] mb-8 md:mb-10"></p>
+    
+    <button id="hero-cta" class="btn btn-primary text-lg w-full sm:w-auto hidden sm:block">
+      Explore My Experience
+    </button>
+  </div>
+</div>
+        <!-- Hero Photo -->
+    <div class="md:w-5/12">
+        <div class="relative max-w-[500px] mx-auto">
+          <img src="assets/cherry.png" alt="Cherry Lyn Segovia Felarca" 
+               class="w-full rounded-3xl shadow-2xl border border-white object-cover aspect-[4/4.3]">
+          <div class="absolute -bottom-4 -right-4 bg-white px-5 py-3 rounded-2xl shadow-xl border border-[#e8e4df] text-sm font-medium">
+            Open to Remote Opportunities
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  </header>
+
+  <!-- About -->
+ <section id="about" class="max-w-screen-2xl mx-auto px-8 py-20 border-t border-[#e8e4df]">
+    <div class="grid lg:grid-cols-12 gap-x-16">
+      
+      <!-- Left Column -->
+      <div class="lg:col-span-5">
+        <div class="sticky top-24 text-center lg:text-left">
+          <div class="text-xs tracking-[3px] text-[#5c5c5c] mb-3">CHAPTER 01 — THE PROFESSIONAL</div>
+          <h2 class="text-6xl md:text-7xl tracking-tighter font-semibold leading-none">
+           <span class="Sub text-[#0d5c57] drop-shadow-sm font-bold hover:text-[#a3d4ce] transition-colors">15+ YEARS</span> of<br>trusted expertise.
+          </h2>
+        </div>
+      </div>
+      
+      <!-- Right Column -->
+      <div class="lg:col-span-7 mt-10 lg:mt-0 text-center lg:text-left">
+        <div id="about-bio" class="text-lg text-[#5c5c5c] max-w-3xl leading-relaxed mb-10"></div>
+        <div id="about-highlights" class="grid sm:grid-cols-2 gap-x-8 gap-y-4 text-lg"></div>
+      </div>
+      
+    </div>
+</section>
+
+  <!-- Services -->
+  <section id="services" class="max-w-screen-2xl mx-auto px-8 py-20 bg-white border-y border-[#e8e4df] shadow-xl
+  shadow-y1">
+    <div class="mb-12 ">
+      <div class="text-base tracking-[3px] text-[#5c5c5c] mb-3 text-center md:text-left">WHAT I DELIVER</div>
+      <h2 class="text-5xl md:text-7xl tracking-tighter font-semibold text-center md:text-left">
+    Services built on<br>trust and precision.
+</h2>
+    </div>
+    
+    <div id="services-grid" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </section>
+
+  <!-- Tools -->
+  <section id="tools" class="max-w-screen-2xl mx-auto px-8 py-20">
+    <div class="text-center mb-12">
+      <div class="text-base tracking-[3px] text-[#5c5c5c] mb-3">TOOLS & SYSTEMS</div>
+      <h2 class="text-6xl md:text-7xl tracking-tighter font-semibold">Modern tools.<br>Proven results.</h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-[1280px] mx-auto shadow-y1 ">
+      <div id="tools-payroll" class="bg-white rounded-3xl p-8 md:p-10 border border-[#e8e4df] "></div>
+      <div id="tools-productivity" class="bg-white rounded-3xl p-8 md:p-10 border border-[#e8e4df]"></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-screen-2xl mx-auto px-8 py-20 bg-white border-y border-[#e8e4df] shadow-xl shadow-y1">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <div class="text-base tracking-[3px] text-[#5c5c5c] mb-3">PROFESSIONAL JOURNEY</div>
+      <h2 class="text-6xl md:text-7xl tracking-tighter font-semibold">Experience across<br>three regions.</h2>
+    </div>
+    
+    <div id="experience-grid" class="grid gap-6 max-w-5xl mx-auto"></div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-screen-2xl mx-auto px-8 py-20 text-center">
+    <h2 class="text-6xl md:text-7xl tracking-tighter font-semibold mb-6">Let’s work<span class="Sub text-[#0d5c57] drop-shadow-sm font-bold hover:text-[#a3d4ce] transition-colors"> together.</span></h2>
+    <p class="max-w-md mx-auto text-xl text-[#5c5c5c] mb-10">I’m open to remote opportunities and long-term collaborations.</p>
+    
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="mailto:chifelarca@gmail.com" class="btn btn-primary text-lg">Send an Email</a>
+      <a href="https://wa.me/639452632650" target="_blank" class="btn btn-secondary text-lg">Message on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center text-sm text-[#5c5c5c] border-t border-[#e8e4df]">
+    © 2026 RUSX IT & Digital Solutions. All rights reserved.
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

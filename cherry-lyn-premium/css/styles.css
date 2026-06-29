@@ -1,0 +1,201 @@
+/* ============================================
+   CHERRY LYN - Premium Portfolio
+   Elegant • Trustworthy • High-End Feel
+   ============================================ */
+
+:root {
+  --bg: #f9f7f4;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --text-muted: #5c5c5c;
+  --accent: #0f766e;
+  --accent-2: #b45309;
+  --border: #e8e4df;
+  --highlight: #f0f7f6;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+}
+
+h1, h2 {
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+/* Navbar */
+.nav {
+  background: rgba(249, 247, 244, 0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Hero */
+.hero {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom, #f9f7f4, #cbe7e3);
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  transition: all 0.4s cubic-bezier(0.23, 1.0, 0.32, 1);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.1);
+  border-color: var(--accent);
+}
+
+/* Tools Carousel */
+.marquee-container {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.1);
+}
+
+.marquee {
+  display: flex;
+  gap: 1.25rem;
+  animation: marquee-slide 32s linear infinite;
+  width: max-content;
+}
+
+
+.marquee-reverse {
+  animation: marquee-slide-reverse 32s linear infinite;
+   width: max-content;
+}
+
+.marquee:hover,
+.marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes marquee-slide-reverse {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.tool-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+  min-width: 180px;
+}
+
+.tool-item:hover {
+  border-color: var(--accent);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  transform: translateY(-3px);
+}
+
+.tool-item img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+/* Experience */
+.experience-card {
+  border-left: 5px solid var(--accent);
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  border-left-color: var(--accent-2);
+  transform: translateX(8px);
+}
+
+/* Buttons */
+.btn {
+  padding: 16px 36px;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0d5c57;
+  transform: translateY(-3px);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Animations */
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Mobile Fixes */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100dvh;
+    padding-top: 5rem;
+  }
+
+  .nav {
+    background: rgba(249, 247, 244, 0.98);
+  }
+
+  #mobile-menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+  }
+
+  /* Prevent overlapping */
+  section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* Ensure background covers full width */
+body {
+  overflow-x: hidden;
+}
