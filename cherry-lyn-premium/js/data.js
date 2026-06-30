@@ -69,7 +69,8 @@ const portfolioData = {
   { name: "HubSpot", image: "assets/HB.png" },
   { name: "ClickUp", image: "assets/clicked.png" },
   { name: "Salesforce", image: "assets/sf.png" },
-  { name: "Microsoft 365", image: "assets/msoffice.png" }
+  { name: "Microsoft 365", image: "assets/msoffice.png" },
+  { name: "Whatsapp", image: "assets/whatsapp.png" }
       
       
     ]
@@ -84,7 +85,7 @@ const portfolioData = {
     },
     {
       role: "Deputy Office Manager",
-      company: "Tradeasia International DMCC, United Arab Emirate (On-site)",
+      company: "Tradeasia International DMCC, United Arab Emirates (On-site)",
       period: "2015 – 2022",
       description: "Oversaw payroll, HR operations, contracts, onboarding, and financial tracking for the United Arab Emirates office."
     },
