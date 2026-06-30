@@ -86,13 +86,13 @@ const portfolioData = {
       role: "Deputy Office Manager",
       company: "Tradeasia International DMCC, United Arab Emirate (On-site)",
       period: "2015 – 2022",
-      description: "Oversaw payroll, HR operations, contracts, onboarding, and financial tracking for the Dubai office."
+      description: "Oversaw payroll, HR operations, contracts, onboarding, and financial tracking for the United Arab Emirates office."
     },
     {
       role: "Digital Marketing & Sales Executive",
       company: "Tradeasia Philippines",
       period: "2022 – 2023",
-      description: "Supported sales, market research, and provided administrative assistance for international clients and the Dubai office."
+      description: "Supported sales, market research, and provided administrative assistance for international clients and the United Arab Emirates office."
     }
   ],
 
