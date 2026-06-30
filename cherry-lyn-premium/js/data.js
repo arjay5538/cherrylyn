@@ -16,16 +16,16 @@ const portfolioData = {
 
   hero: {
     headline: "Precision in Payroll.<br>Excellence in Administration.",
-    subheadline: "Experienced remote payroll and administrative professional helping businesses streamline operations with accuracy and care across the US, Dubai, and the Philippines.",
+    subheadline: "Experienced remote payroll and administrative professional helping businesses streamline operations with accuracy and care across the United State, United Arab Emirates, and the Philippines.",
     cta: "Explore My Work"
   },
 
   about: {
-    bio: "With over 15 years of experience, I specialize in managing payroll, administrative processes, and bookkeeping for international clients. I have successfully supported teams in the Philippines, Dubai, and US-based remote environments.\nI am certified in Xero, QuickBooks, and Gusto Payroll, and bring strong proficiency in modern productivity tools. My approach combines meticulous attention to detail with a commitment to clear communication and reliable delivery.",
+    bio: "With over 15 years of experience, I specialize in managing payroll, administrative processes, and bookkeeping for international clients. I have successfully supported teams in the Philippines, United Arab Emirates, and United State-based remote environments.\nI am certified in Xero, QuickBooks, and Gusto Payroll, and bring strong proficiency in modern productivity tools. My approach combines meticulous attention to detail with a commitment to clear communication and reliable delivery.",
     highlights: [
       "15+ Years Experience",
       "Xero, QuickBooks & Gusto Certified",
-      "US, Dubai & PH Team Experience",
+      "United State, United Arab Emirates & PH Team Experience",
       "Remote Operations Specialist"
     ]
   },
@@ -33,7 +33,7 @@ const portfolioData = {
   services: [
     {
       title: "Payroll Processing",
-      desc: "Full-cycle payroll management with accuracy, compliance, and timely reporting for US and international clients.",
+      desc: "Full-cycle payroll management with accuracy, compliance, and timely reporting for United State and international clients.",
       icon: "💵"
     },
     {
@@ -78,13 +78,13 @@ const portfolioData = {
   experience: [
     {
       role: "Payroll & Administrative Manager",
-      company: "Murphy Collective (US Remote)",
+      company: "Murphy Collective (United State Remote)",
       period: "2024 – Present",
       description: "Managing full-cycle payroll for US-based clients, maintaining employee records, generating reports, and ensuring compliance."
     },
     {
       role: "Deputy Office Manager",
-      company: "Tradeasia International DMCC, Dubai",
+      company: "Tradeasia International DMCC, United Arab Emirate (On-site)",
       period: "2015 – 2022",
       description: "Oversaw payroll, HR operations, contracts, onboarding, and financial tracking for the Dubai office."
     },
