@@ -25,7 +25,7 @@ const portfolioData = {
     highlights: [
       "15+ Years Experience",
       "Xero, QuickBooks & Gusto Certified",
-      "United State of America, United Arab Emirates & PH Team Experience",
+      "United States of America, United Arab Emirates & PH Team Experience",
       "Remote Operations Specialist"
     ]
   },
@@ -79,7 +79,7 @@ const portfolioData = {
   experience: [
     {
       role: "Payroll & Administrative Manager",
-      company: "Murphy Collective (United State of America Remote)",
+      company: "Murphy Collective (United States of America Remote)",
       period: "2024 – Present",
       description: "Managing full-cycle payroll for US-based clients, maintaining employee records, generating reports, and ensuring compliance."
     },
